@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lesson3</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table>
-      <caption>
-        lesson table
-      </caption>
+    <table class="lesson_table">
+      <h1 id="site-name">lesson table</h1>
       <tr>
         <th>numer</th>
         <th>topic</th>
@@ -37,12 +36,12 @@
     <bdo dir="rtl">specify the-text-direct</bdo>
     <bdo dir="ltr">specify the-text-direct</bdo>
     <blockquote>Quted from another Text</blockquote>
-    <h1>Defines the Documents Body</h1>
+    <h1 style="color: forestgreen;">Defines the Documents Body</h1>
     <br />
     <!-- single line break in a text -->
     <button>Clickable button</button>
     <caption>
-      <table>
+      <table class="studies">
         <caption>
           weekly studies
         </caption>
@@ -56,29 +55,37 @@
         </tr>
       </table>
     </caption>
-    <p><cite>The Scream</cite> by Mohamed Masudh. Painted in 2020.</p>
+    
+    <p><cite>The Screan</cite> by Mohamed Masudh. Painted in 2020.</p>
     <p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+
 
     <col span="2" style="background-color: red;" />
     <colgroup>
       <col style="background-color: yellow;" />
     </colgroup>
     <dl>
-      <dt>sugar</dt>
+      <h1 style="color: mediumvioletred;">
+        <dt>sugar</dt>
       <dd>milk</dd>
       <dt>juice</dt>
       <dd>rice</dd>
     </dl>
+      </h1>
     <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
-    <dl>
-      <dt>Coffee</dt>
-      <dd>Black hot drink</dd>
-      <dt>Milk</dt>
-      <dd>White cold drink</dd>
+    <dl style="color: orangered;">
+      <li>Coffee</li>
+      <li>Black hot drink</li>
+      <li>Milk</li>
+      <li>cold drink</li>
     </dl>
-    <p>You <em>need</em> to sleep now!</p>
+  </h2>
+
+    <p style="color: rebeccapurple;">You <em>need</em> to sleep now!</p>
     <form action="/action_page.php">
-      <fieldset>
+      <fieldset style="color: royalblue;">
+
         <legend>Personalia:</legend>
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname" /><br /><br />
@@ -92,12 +99,15 @@
       </fieldset>
     </form>
     <hr />
+
     hr define thematic change in the content
-    <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+    <p style="color: chartreuse;"><i>Lorem ipsum</i> is the most popular filler text in history.</p>
     <iframe
       src="https://www.beetrootacademy.com"
       title="Beetroot Academy Free Online Web Tutorials"
     ></iframe>
+
+   <h1 style="color: darkgreen;">
     <form action="/action_page.php">
       <label for="fname">First name:</label>
       <input type="text" id="fname" name="fname" /><br /><br />
@@ -105,9 +115,11 @@
       <input type="text" id="lname" name="lname" /><br /><br />
       <input type="submit" value="Submit" />
     </form>
+   </h1>
     <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
     <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
-    <form action="/action_page.php">
+    <dl style="color: red">
+      <form action="/action_page.php">
       <label for="male">Male</label>
       <input type="radio" name="gender" id="male" value="male" /><br />
       <label for="female">Female</label>
@@ -116,7 +128,10 @@
       <input type="radio" name="gender" id="other" value="other" /><br /><br />
       <input type="submit" value="Submit" />
     </form>
-    <label for="foods">Choose a food:</label>
+    </dl>
+
+    <dl style="color: seagreen;">
+    </dl><label for="foods">Choose a food:</label>
 
     <select id="food">
       <option value="rice">rice</option>
@@ -124,22 +139,27 @@
       <option value="spaghetti">spaghetti</option>
       <option value="macaroni">macaroni</option>
     </select>
+  </dl>
+
     <object data="horse.wav">
       <param name="autoplay" value="true" />
     </object>
-    <pre>
+
+    <pre style="color: blue;">
       Text in a pre element
       is displayed in a fixed-width
       font, and it preserves
       both      spaces and
       line breaks
-      </pre
-    >
+      </pre>
+
+    <h4 style="color: darkgreen;">
     <p>
       My personal goal is to:
       <q>Build a future where people live in harmony with nature.</q>
       We hope they succeed.
     </p>
+  </h4>
     <p>
       <samp>File not found.<br />Press F1 to continue</samp>
     </p>
@@ -147,7 +167,7 @@
       document.getElementById("Hafedh").innerHTML = "Hello my people!";
     </script>
     <p>My mother has <span style="color: blue;">blue</span> eyes.</p>
-    <strong>formatting Strong text in a document</strong>
+    <strong style="color: darkred;">formatting Strong text in a document</strong>
     <p>This text contains <sub>subscript</sub> text.</p>
     <p>This text contains <sup>superscript</sup> text.</p>
     <table>
